@@ -1,0 +1,123 @@
+body {
+  margin: 0px;
+}
+
+header {
+  font-family: fantasy;
+  width: 900px;
+  position: fixed;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.contents-logo {
+  float: left;
+  margin: 0;
+  font-size: 33px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 40px;
+  padding-left: 20px;
+}
+
+.contents-list ul {
+  margin: 0;
+}
+
+.contents-list li {
+  float: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+  list-style: none;
+}
+
+.top {
+  background-image: url("/images/NCG124.jpg");
+  background-size: cover;
+  height: 1300px;
+  /* text-align: center; */
+  /* color: white; */
+  /* margin-bottom: 100px; */
+  /* position: relative; */
+}
+
+.top h1 {
+  font-family: fantasy;
+  /* font-weight: 900; */
+  opacity: 0.3;
+  color: blue;
+  font-size: 50px;
+  display: inline-block;
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-bottom: 0;
+  /* margin-right:100px; */
+  text-align: center;
+}
+
+.top ul {
+  padding-left: 0; 
+}
+
+.top li {
+  /* float: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 30px;*/
+  margin-left: 100px;
+  list-style: none;
+  font-family: fantasy;
+}
+
+
+ .top-detail {
+  background-image: url("/images/af05257efd008de01e9369f41dd7ca92.jpg");
+  background-size: cover;
+  background-color:rgba(255,255,255,0.9);
+  background-blend-mode:lighten;
+  height: 1000px; 
+  /* opacity: 0.1; */
+  /* text-align: center; */
+  /* color: white; */
+  /* margin-bottom: 100px; */
+  /* position: relative; */
+  white-space: pre-wrap;
+} 
+
+.top-detail h1 {
+  font-family: fantasy;
+  /* font-weight: 900; */
+  opacity: 0.3; 
+  color: blue;
+  font-size: 50px;
+  display: inline-block;
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-bottom: 0;
+  /* margin-right:100px; */
+  text-align: center;
+}
+
+/* .top-detail ul {
+  padding-left: 0; 
+} */
+
+.top-detail p {
+  /* float: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 30px;*/
+  margin-left: 100px;
+  list-style: none;
+  font-family: fantasy;
+}
+
+/* .blog-img {
+  opacity: 0.1; 
+  margin-left: 100px;
+} */

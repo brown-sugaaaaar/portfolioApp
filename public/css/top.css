@@ -1,0 +1,68 @@
+body {
+  margin: 0px;
+}
+
+header {
+  font-family: fantasy;
+  width: 900px;
+  position: fixed;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.contents-logo {
+  float: left;
+  margin: 0;
+  font-size: 33px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 40px;
+  padding-left: 20px;
+}
+
+.contents-list ul {
+  margin: 0;
+}
+
+.contents-list li {
+  float: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+  list-style: none;
+}
+
+.top {
+  background-image: url("/images/GiantKilling.jpg");
+  background-size: cover;
+  height: 1000px;
+  text-align: center;
+  /* color: white; */
+  margin-bottom: 100px;
+  /* position: relative; */
+}
+
+.top h1 {
+  font-family: fantasy;
+  opacity: 0.3;
+  color: pink;
+  font-size: 200px;
+  display: inline-block;
+  margin-top:300px;
+  /* margin-top:300px;
+  margin-right:100px; */
+  /* margin-bottom:300px; */
+  text-align: center;
+}
+
+/* .source {
+  text-align: right;
+
+  right:0;
+  bottom:0;
+} */
+
