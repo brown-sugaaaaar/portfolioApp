@@ -38,14 +38,14 @@ class AdminBlogController extends Controller
         // $blog->title = $request->title;
         // $blog->detail = $request->detail;
         // $blog->image_url = $request->image_url;
-        $request->file('image')->storeAs('piblic/images',$blog->imae_url);
+        $request->file('image')->storeAs('/blog',$blog->image_url.'.jpg','public');
         // $blog->save();
         // $request->save();
 
         // return redirect('/admin/blog');
 
-        return redirect()
-        ->route('admin.blog.index');
+        return redirect('/admin/blog');
+
     }
 
 
