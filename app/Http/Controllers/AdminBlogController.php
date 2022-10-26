@@ -38,7 +38,7 @@ class AdminBlogController extends Controller
         // $blog->title = $request->title;
         // $blog->detail = $request->detail;
         // $blog->image_url = $request->image_url;
-        $request->file('image')->storeAs('/blog',$blog->image_url.'.jpg','public');
+        $request->file('image')->storeAs('/public/blog_image',$blog->image_url.'.jpg','public');
         // $blog->save();
         // $request->save();
 
@@ -63,8 +63,11 @@ class AdminBlogController extends Controller
         return redirect('/admin/blog');
     }
 
-    public function destroy(Blog $blog)
+    public function destroy(Blog $blog, $id)
     {
-        //
+        $blog = Blog::find($id);
+        $blog->delete();
+
+        return redirect('/admin/blog');
     }
 }

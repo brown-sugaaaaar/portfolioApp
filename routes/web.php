@@ -33,3 +33,4 @@ Route::get('/admin/blog/edit{id}', 'AdminBlogController@edit');
 Route::post('/admin/blog/update{id}', 'AdminBlogController@update');
 Route::get('/admin/blog/create', 'AdminBlogController@create');
 Route::post('/admin/blog/store', 'AdminBlogController@store');
+Route::post('/admin/blog/destroy{id}', 'AdminBlogController@destroy');

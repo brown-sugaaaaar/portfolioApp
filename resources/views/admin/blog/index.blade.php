@@ -40,9 +40,12 @@
                     </a>
                 </td>
                 <td>
-                    <button class="btn btn-danger btn-sm" href="#">
-                         <i class="fas fa-trash"></i>削除
-                    </button>
+                    <form action="/admin/blog/destroy{{$blog->id}}" method="POST">
+                    @csrf
+                        <button type="submit" class="btn btn-danger btn-sm" action="/admin/blog/destroy{{$blog->id}}">
+                            <i class="fas fa-trash"></i>削除
+                        </button>
+                    </form>
                 </td>
             </tr>
             @endforeach
