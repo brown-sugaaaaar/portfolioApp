@@ -71,7 +71,8 @@ a {
   padding-right: 30px;*/
   margin-left: 100px;
   list-style: none;
-  font-family: fantasy;
+  font-family: "メイリオ" ;
+  /* font-family: fantasy; */
   /* font-family: Nico Moji; */
 }
 
@@ -115,10 +116,15 @@ a {
   padding-right: 30px;*/
   margin-left: 100px;
   list-style: none;
-  font-family: fantasy;
+  /* font-family: fantasy; */
+  font-family: "メイリオ" ;
 }
 
 /* .blog-img {
   opacity: 0.1; 
   margin-left: 100px;
+} */
+
+/* .blog-index {
+  font-family: "メイリオ" ;
 } */

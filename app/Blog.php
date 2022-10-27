@@ -6,5 +6,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class Blog extends Model
 {
-    protected $fillable = ['title','detail','image_url']; //保存したいカラム名が複数の場合
+    protected $fillable = ['title','detail','image_name']; //保存したいカラム名が複数の場合
 }

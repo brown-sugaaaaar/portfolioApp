@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/css/top.css" >
+  <link rel="stylesheet" href="/css/about.css" >
   <title>あらしちゃんのいーじーもーど</title>
 </head>
 
@@ -23,13 +23,12 @@
     </div>
   </header>
   <div class="top">
-    <h1>easy mode</h1>
+    <h1>profile</h1>
+
+    <img src="/images/arashi_chan_cut.png" width="30%">
   </div>
 
 
-<p>favorit</p>
-<div>
-  <a href="https://www.youtube.com/channel/UCNYDDHUwtYhVEXEJU9RgYRg/featured" target="_blank">HACCHAAN</a>
-</div>
+
 </body>
 </html>

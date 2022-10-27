@@ -29,14 +29,14 @@
 
                 <div class="col-sm-12">
                     <div class="from-group">
-                        <label>image_url</label>
-                        <input type="text" class="form-control" name="image_url">
+                        <label>image_name</label>
+                        <input type="text" class="form-control" name="image_name">
                     </div>
                 </div>
 
                 <div class="col-sm-12">
                     <div class="from-group">
-                        <label>imagl</label>
+                        <label>image</label>
                         <input type="file" class="form-control" name="image">
                     </div>
                 </div>

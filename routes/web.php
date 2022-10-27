@@ -24,6 +24,8 @@ Route::get('/blog/{id}' ,'BlogController@show');
 
 Route::get('/gallery' ,'GalleryController@index');
 
+Route::get('/about' ,'AboutController@index');
+
 //admin
 Auth::routes();
 

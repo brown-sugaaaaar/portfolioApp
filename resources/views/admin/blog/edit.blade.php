@@ -29,8 +29,8 @@
 
                 <div class="col-sm-12">
                     <div class="from-group">
-                        <label>image_url</label>
-                        <input type="image_url"  class="form-control" name="image_url" value="{{ old('image_url', $blog->image_url) }}">
+                        <label>image_name</label>
+                        <input type="image_name"  class="form-control" name="image_name" value="{{ old('image_name', $blog->image_name) }}">
                     </div>
                 </div>
             </div>

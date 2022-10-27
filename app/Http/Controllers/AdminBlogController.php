@@ -31,14 +31,8 @@ class AdminBlogController extends Controller
     {
         // $blog = new Blog;
         $blog = Blog::create($request->all());
-        // $blog->title = $request->input('title');
-        // $blog->detail = $request->input('detail');
-        // $blog->image_url = $request->input('image_url');
 
-        // $blog->title = $request->title;
-        // $blog->detail = $request->detail;
-        // $blog->image_url = $request->image_url;
-        $request->file('image')->storeAs('/public/blog_image',$blog->image_url.'.jpg','public');
+        $request->file('image')->storeAs('/public/blog_image',$blog->image_name.'.jpg','public');
         // $blog->save();
         // $request->save();
 
@@ -52,12 +46,10 @@ class AdminBlogController extends Controller
     public function update(Request $request, Blog $blog,$id)
     {
         $blog = Blog::find($id);
-        // $blog->title = $request->input('title');
-        // $blog->detail = $request->input('detail');
-        // $blog->image_url = $request->input('image_url');
+
         $blog->title = $request->title;
         $blog->detail = $request->detail;
-        $blog->image_url = $request->image_url;
+        $blog->image_name = $request->image_name;
         $blog->save();
 
         return redirect('/admin/blog');

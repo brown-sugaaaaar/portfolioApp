@@ -22,7 +22,7 @@
             <thead>
                 <tr>
                     <th>title</th>
-                    <th>image_url</th>
+                    <th>image_name</th>
                     <th>created</th>
                     <th>updated</th>
                 </tr>
@@ -31,7 +31,7 @@
             @foreach($blogs as $blog)
             <tr>
                 <td>{{ $blog->title }}</td>
-                <td>{{ $blog->image_url }}</td>
+                <td>{{ $blog->image_name }}</td>
                 <td>{{ $blog->created_at }}</td>
                 <td>{{ $blog->updated_at }}</td>
                 <td>

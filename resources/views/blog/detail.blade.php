@@ -5,6 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/css/blog.css" >
+  <link href="https://fonts.googleapis.com/earlyaccess/hannari.css" rel="stylesheet">
+
   <title>ぶろぐ</title>
 </head>
 <body>
@@ -12,7 +14,7 @@
   <div class="contents-logo"><a href="/top"><img src="/images/logo_51.png"></a></div>
     <div class="contents-list">
       <ul>
-        <li><a href="#">about</a></li>
+        <li><a href="/about">about</a></li>
         <li><a href="/blog">blog</a></li>
         <li><a href="#">production</a></li>
         <li><a href="#">gallery</a></li>
@@ -26,6 +28,7 @@
 
           <p>{{$blog->created_at}}&emsp;{{$blog->title}}</p>
           <p>{{$blog->detail}}</p>
+          <img src="/storage/blog_image/{{$blog->image_name}}.jpg" height="50%">
 
         <!-- <img class="blog-img" src="/images/af05257efd008de01e9369f41dd7ca92.jpg"> -->
   </div>
