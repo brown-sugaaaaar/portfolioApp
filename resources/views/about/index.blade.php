@@ -29,8 +29,8 @@
           <img src="/images/arashi_chan_cut.png" width="50%">
       </div>
       <div class="profile_detail">
-        <h2>name</h2>
-        <p>my name is arashichan</p>
+        <h3>name&emsp;</h3>
+        <p>arashichan</p>
       </div>
     </div>
   </div>

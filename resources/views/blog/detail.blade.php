@@ -11,15 +11,15 @@
 </head>
 <body>
   <header>
-  <div class="contents-logo"><a href="/top"><img src="/images/yamaarashi_logo.png"></a></div>
+  <div class="contents-logo"><a href="/top"><img src="/images/yamaarashi_logo.png" class="btn-icon"></a></div>
     <div class="contents-list">
       <ul>
-        <li><a href="/about">about</a></li>
-        <li><a href="/blog">blog</a></li>
-        <li><a href="#">production</a></li>
-        <li><a href="#">gallery</a></li>
-        <li><a href="https://www.instagram.com/brownsuger_1106/" target="_blank">Instagram</a></li>
-        <li><a href="#">Twitter</a></li>
+        <li class="btn"><a href="/about">about</a></li>
+        <li class="btn"><a href="/blog">blog</a></li>
+        <li class="btn"><a href="#">production</a></li>
+        <li class="btn"><a href="#">gallery</a></li>
+        <li class="btn"><a href="https://www.instagram.com/brownsuger_1106/" target="_blank">Instagram</a></li>
+        <li class="btn"><a href="#">Twitter</a></li>
       </ul>
     </div>
   </header>
@@ -29,8 +29,6 @@
           <p>{{$blog->created_at}}&emsp;{{$blog->title}}</p>
           <p>{{$blog->detail}}</p>
           <img src="/storage/blog_image/{{$blog->image_name}}.jpg" height="50%">
-
-        <!-- <img class="blog-img" src="/images/af05257efd008de01e9369f41dd7ca92.jpg"> -->
   </div>
 </body>
 </html>
