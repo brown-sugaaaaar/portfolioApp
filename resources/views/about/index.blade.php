@@ -23,9 +23,16 @@
     </div>
   </header>
   <div class="top">
-    <h1>profile</h1>
-
-    <img src="/images/arashi_chan_cut.png" width="30%">
+    <div class="profile">
+      <div class="profile-top">
+        <h1>profile</h1>
+          <img src="/images/arashi_chan_cut.png" width="50%">
+      </div>
+      <div class="profile_detail">
+        <h2>name</h2>
+        <p>my name is arashichan</p>
+      </div>
+    </div>
   </div>
 
 

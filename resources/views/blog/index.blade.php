@@ -11,7 +11,7 @@
 </head>
 <body>
   <header>
-  <div class="contents-logo"><a href="/top"><img src="/images/logo_51.png"></a></div>
+  <div class="contents-logo"><a href="/top"><img src="/images/yamaarashi_logo.png"></a></div>
     <div class="contents-list">
       <ul>
         <li><a href="/about">about</a></li>
