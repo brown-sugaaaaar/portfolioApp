@@ -17,9 +17,10 @@
         <li class="btn"><a href="/about">about</a></li>
         <li class="btn"><a href="/blog">blog</a></li>
         <li class="btn"><a href="#">production</a></li>
-        <li class="btn"><a href="#">gallery</a></li>
         <li class="btn"><a href="https://www.instagram.com/brownsuger_1106/" target="_blank">Instagram</a></li>
-        <li class="btn"><a href="#">Twitter</a></li>
+        <li class="btn"><a href="https://twitter.com/porcupine_777" target="_blank">Twitter</a></li>
+        <li class="btn"><a href="https://github.com/keiko-suger" target="_blank">Git Hub</a></li>
+        <li class="btn"><a href="/references">References</a></li>
       </ul>
     </div>
   </header>

@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="/css/blog.css" >
   <link href="https://fonts.googleapis.com/earlyaccess/hannari.css" rel="stylesheet">
 
-  <title>ぶろぐ</title>
+  <title>りふぁれんす</title>
 </head>
 <body>
   <header>
@@ -24,12 +24,11 @@
       </ul>
     </div>
   </header>
-  <div class="top-detail">
-      <h1>blog</h1>
 
-          <p>{{$blog->created_at}}&emsp;{{$blog->title}}</p>
-          <p>{{$blog->detail}}</p>
-          <img src="/storage/blog_image/{{$blog->image_name}}.jpg" height="50%">
-  </div>
+  <div>
+  <h1>参考資料・Webページ一覧</h1>
+  <h3>Laravelインストール/adminLTEの組み込み</h3>
+  <a href="https://seiyu-nico.jp/laravel6-adminlte-install/#toc4">https://seiyu-nico.jp/laravel6-adminlte-install/#toc4</a>
+</div>
 </body>
 </html>

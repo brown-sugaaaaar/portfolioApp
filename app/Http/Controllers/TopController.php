@@ -9,4 +9,9 @@ class TopController extends Controller
     public function index () {
         return view('top');
     }
+    
+
+    public function reference () {
+        return view('references.index');
+    }
 }

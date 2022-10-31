@@ -26,7 +26,7 @@
   </nav>
 
   <div class="top-image">
-    <img src="/images/harinezumi.png" class="shake-img" width="10%">
+    <img src="/images/harinezumi.png" class="bounce-img" width="10%">
     <img src="/images/wave_touka.png" width="20%">
   </div>
 
